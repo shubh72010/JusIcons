@@ -1,0 +1,6 @@
+*.png binary
+*.webp binary
+*.apk binary
+*.jar binary
+*.gradle linguist-language=Gradle
+*.kts linguist-language=Kotlin

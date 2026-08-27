@@ -1,0 +1,4 @@
+- [ ] `./gradlew :app:assembleDebug :app:testDebugUnitTest` passes
+- [ ] Attached `cache/debug-output` strip if renderer changed
+- [ ] No proprietary decompiled code pasted
+- [ ] Updated `reverse-engineering/*.md` if constants changed
