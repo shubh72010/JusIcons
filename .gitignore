@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# reverse-engineering: track reports + scripts, ignore extracted proprietary blobs
+reverse-engineering/**/original/
+reverse-engineering/**/apktool_out/
+reverse-engineering/**/jadx_out/
+reverse-engineering/**/*.dex
+reverse-engineering/**/*.apk
+reverse-engineering/**/*.apkm
+!reverse-engineering/**/original/.gitkeep
+
+# debug visual output
+debug-output/
+app/build/
+com.nothing.*.apkm
+*.apkm
