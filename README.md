@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Release](https://img.shields.io/github/v/release/shubh72010/JusIcons?label=release)](https://github.com/shubh72010/JusIcons/releases/tag/v0.2.0)
+[![Release](https://img.shields.io/github/v/release/shubh72010/JusIcons?label=release)](https://github.com/shubh72010/JusIcons/releases/tag/v0.2.1)
 [![CI](https://github.com/shubh72010/JusIcons/actions/workflows/ci.yml/badge.svg)](https://github.com/shubh72010/JusIcons/actions/workflows/ci.yml)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![Min SDK 24](https://img.shields.io/badge/minSdk-24-brightgreen)](#)
@@ -20,7 +20,7 @@
 <h3>Quick Install</h3>
 
 ```bash
-adb install https://github.com/shubh72010/JusIcons/releases/download/v0.2.0/app-release.apk
+adb install https://github.com/shubh72010/JusIcons/releases/download/v0.2.1/app-release.apk
 # also appliable as icon pack — open Nova/Lawnchair/ADW → Theme → JusIcons
 ```
 
@@ -28,8 +28,8 @@ adb install https://github.com/shubh72010/JusIcons/releases/download/v0.2.0/app-
 
 ```bash
 git clone git@github.com:shubh72010/JusIcons.git && cd JusIcons
-./gradlew :app:assembleRelease # → app/build/outputs/apk/release/app-release.apk (7.9MB signed)
-./gradlew :app:assembleDebug   # → app/build/outputs/apk/debug/app-debug.apk (12MB)
+./gradlew :app:assembleRelease # → app/build/outputs/apk/release/app-release.apk (8.1MB signed)
+./gradlew :app:assembleDebug   # → app/build/outputs/apk/debug/app-debug.apk (13MB)
 ```
 
 </div>
@@ -142,14 +142,15 @@ See `reverse-engineering/` for `RE.md` etc.
 ### Pack doesn't appear in launcher picker
 * Ensure you installed `app-release.apk` (not just `app-debug` — some launchers ignore debug). Check `aapt2 dump xmltree app-release.apk --file AndroidManifest.xml` lists `app.lawnchair.icons.THEMED_ICON`, `ch.deletescape.lawnchair.ICONPACK`, `com.novalauncher.THEME`, `com.anddoes.launcher.THEME`, `org.adw.launcher.THEMES` etc. — current manifest has 15 filters from `Lawnicons`.
 * Clear launcher cache: **Settings → Apps → Lawnchair/Nova → Storage → Clear cache** then reopen Theme picker.
-* Some launchers read `assets/appfilter.xml`, others `res/xml/appfilter.xml` — JusIcons ships both (same file, `1966B`).
+* Some launchers read `assets/appfilter.xml`, others `res/xml/appfilter.xml` — JusIcons ships both (same file, `2.9MB` with 22k entries from Lawnicons to cover every app).
 
-### Pack applies but most icons unchanged
-* That's expected for a minimal demo with 8 `<item>` + `calendar` prefix. Unmapped apps fallback to original. Add entries to `assets/appfilter.xml` + `res/xml/appfilter.xml` and matching `res/drawable/<name>.xml`, then `drawable.xml` — rebuild. Generic fallback via `d7/f` only works in live renderer, not static pack.
+### Pack shows selected but icons don't change
+* **Now fixed in v0.2.1:** Previously only 8 `<item>` — most apps had no entry so launcher kept original. Now `appfilter.xml` has **22k entries** (full Lawnicons list mapped to `jus_generic_*` + curated `calendar/files`) so *every* app gets a drawable. If yours still shows original, force-stop launcher or re-apply pack. Unmapped fallback in static pack is generic `jus_generic_star/chatgpt` (white circle placeholder) — for per-app correct mono, use **live renderer** in JusIcons app ( `d7/f` pipeline ) which generates per-app via `MonoProcessor` — static pack can't do per-app without pre-generated drawables.
+* To get per-app perfect mono statically, add curated `<item>` + vector to `assets/appfilter.xml` and `res/drawable/` — see `Add curated icon` above.
 
-### Icons are just outline without black circle
-* Live renderer: toggle `BG` on (true = `#121212` circle via `createCircularBg`).  
-* Static pack: vectors are glyph-only transparent by design (launcher tints). Nothing's pack draws circle at runtime via `ThemedIconDrawable` + `whiteShadowLayer`. Our static `jus_calendar_mono` follows that — launcher's themed icon background (wallpaper-derived or black) will be behind. To bake circle into static drawable, add `<path fillColor="#121212" d="M24,0A24,24 0 1 1 24,48 …"/>` at bottom of vector.
+### Icons are just outline without black circle / BG toggle does nothing in launcher
+* **Live renderer (JusIcons app):** toggle `BG` on = `#121212` circle via `createCircularBg` ( `ThemedIconDrawable` ), off = glyph-only transparent. This is the Nothing `whiteShadowLayer` — works live because we draw `Canvas`.
+* **Static pack (launcher):** vectors are glyph-only transparent by design — launcher tints glyph and puts it on its own background (Lawnchair themed icons use wallpaper color, not `#121212`). Our pack's `BG` toggle can't affect launcher's static drawables. To bake circle into static pack, edit vector to include `<path fillColor="#121212" d="M24,0A24,24 0 1 1 24,48 …"/>` at bottom — then pack always shows black circle. v0.2.1 keeps glyph-only so launcher decides bg — use live preview for accurate `BG on/off`.
 
 ### White square behind adaptive icons
 Rebuilt after `IconNormalizer` foreground-only fix — `AdaptiveIconDrawable` now draws only `foreground` on transparent.
