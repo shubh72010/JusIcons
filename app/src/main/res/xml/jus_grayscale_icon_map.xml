@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modular curated map — add outline drawables here, renderer stays untouched. -->
+<!--Evidence: d7/l.java h() parses nt_grayscale_icon_map.xml <icon package drawable> -->
+<icons>
+    <!-- Calendar (com.google.android.calendar + AOSP fallback) — per-day array handled by ThemedIconProvider ThemeData (array → getDay) -->
+    <icon package="com.google.android.calendar" drawable="@array/jus_calendar_days" />
+    <icon package="com.android.calendar" drawable="@array/jus_calendar_days" />
+    <!-- Files -->
+    <icon package="com.google.android.documentsui" drawable="@drawable/jus_files_mono" />
+    <icon package="com.android.documentsui" drawable="@drawable/jus_files_mono" />
+</icons>

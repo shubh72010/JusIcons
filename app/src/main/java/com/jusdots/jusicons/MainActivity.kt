@@ -66,7 +66,7 @@ fun JusIconsTestScreen() {
             try {
                 val ai: ApplicationInfo = pm.getApplicationInfo(ri.activityInfo.packageName, 0)
                 val original: Drawable = pm.getApplicationIcon(ai) ?: continue
-                val rendered: Drawable = renderer.render(original, sizePx, opts)
+                val rendered: Drawable = renderer.renderForPackage(ai.packageName, original, sizePx, opts)
                 val label = pm.getApplicationLabel(ai).toString()
                 list.add(AppIconEntry(label, ai.packageName, original, rendered))
             } catch (_: Exception) {}
@@ -108,7 +108,7 @@ fun JusIconsTestScreen() {
             }
         }
         val opts = RenderOptions(forensicScale = forensicScale, showBackground = showBg)
-        renderer.renderWithDebug(entry.original, sizePx, opts, debug)
+        renderer.renderWithDebug(entry.pkg, entry.original, sizePx, opts, debug)
         // Sort by 01..08 prefix for stable order
         traceStages = stages.sortedBy { it.first }
     }

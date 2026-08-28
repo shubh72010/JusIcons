@@ -11,11 +11,70 @@ interface IconRenderer {
 }
 
 class JusIconsRenderer(private val context: Context) : IconRenderer {
+    private val themedProvider by lazy { ThemedIconProvider(context) }
+
     override fun render(source: Drawable, sizePx: Int, options: RenderOptions): Drawable {
         return renderWithDebug(source, sizePx, options, null)
     }
 
+    fun renderForPackage(packageName: String, source: Drawable, sizePx: Int, options: RenderOptions = RenderOptions()): Drawable {
+        return renderWithDebug(packageName, source, sizePx, options, null)
+    }
+
     fun renderWithDebug(source: Drawable, sizePx: Int, options: RenderOptions, debug: MonoProcessor.DebugSink?): Drawable {
+        return renderWithDebug("", source, sizePx, options, debug)
+    }
+
+    fun renderWithDebug(packageName: String, source: Drawable, sizePx: Int, options: RenderOptions, debug: MonoProcessor.DebugSink?): Drawable {
+        // 1) Curated ThemeData — replaces source drawable entirely (cannot be synthesized via d7/f)
+        if (packageName.isNotEmpty()) {
+            val themeData = themedProvider.getThemeDataForPackage(packageName)
+            themeData?.loadPaddedDrawable()?.let { curated ->
+                debug?.let {
+                    try { it.onStage("01_original", IconNormalizer.toBitmap(source, sizePx)) } catch (_: Exception) {}
+                    try { it.onStage("02_curated", IconNormalizer.toBitmap(curated, sizePx)) } catch (_: Exception) {}
+                }
+                val mono = drawableToMono(curated, sizePx)
+                val bg = if (options.showBackground) createCircularBg(sizePx) else null
+                val drawable = ThemedIconDrawable(mono, bg, options.bgColor, options.fgColor)
+                debug?.let {
+                    try { it.onStage("07_cropped", mono.copy(Bitmap.Config.ARGB_8888, false)) } catch (_: Exception) {}
+                    val out = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
+                    val c = Canvas(out); drawable.setBounds(0, 0, sizePx, sizePx); drawable.draw(c)
+                    it.onStage("08_final", out)
+                    // emit empty placeholders for 03-06 so UI strip stays 01..08 ordered (no-op bitmaps)
+                    val placeholder = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
+                    placeholder.eraseColor(android.graphics.Color.TRANSPARENT)
+                    it.onStage("03_grayscale", placeholder)
+                    it.onStage("04_analysis", placeholder)
+                    it.onStage("05_remapped", placeholder)
+                    it.onStage("06_alpha", placeholder)
+                }
+                return drawable
+            }
+        }
+        // 2) App-provided AdaptiveIconDrawable.monochrome (Android 13+ ThemedIcon)
+        if (source is android.graphics.drawable.AdaptiveIconDrawable) {
+            source.monochrome?.let { monoLayer ->
+                debug?.let {
+                    try { it.onStage("01_original", IconNormalizer.toBitmap(source, sizePx)) } catch (_: Exception) {}
+                    try { it.onStage("02_curated", IconNormalizer.toBitmap(monoLayer, sizePx)) } catch (_: Exception) {}
+                }
+                val mono = drawableToMono(monoLayer, sizePx)
+                val bg = if (options.showBackground) createCircularBg(sizePx) else null
+                val drawable = ThemedIconDrawable(mono, bg, options.bgColor, options.fgColor)
+                debug?.let {
+                    try { it.onStage("07_cropped", mono.copy(Bitmap.Config.ARGB_8888, false)) } catch (_: Exception) {}
+                    val out = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
+                    val c = Canvas(out); drawable.setBounds(0, 0, sizePx, sizePx); drawable.draw(c)
+                    it.onStage("08_final", out)
+                    val ph = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
+                    it.onStage("03_grayscale", ph); it.onStage("04_analysis", ph)
+                    it.onStage("05_remapped", ph); it.onStage("06_alpha", ph)
+                }
+                return drawable
+            }
+        }
         val normalized: Bitmap = try { IconNormalizer.toBitmap(source, sizePx) } catch (_: Exception) { rasterFallback(source, sizePx) }
         val scale = if (options.forensicScale) MonoProcessor.CROP_SCALE_FORENSIC else MonoProcessor.CROP_SCALE_VISUAL
         val result = MonoProcessor.process(normalized, sizePx, options.enableMonoCheck, debug, scale, options.binary)
@@ -34,6 +93,17 @@ class JusIconsRenderer(private val context: Context) : IconRenderer {
             it.onStage("08_final", out)
         }
         return drawable
+    }
+    private fun drawableToMono(drawable: Drawable, sizePx: Int): Bitmap {
+        val bmp = try { IconNormalizer.toBitmap(drawable, sizePx) } catch (_: Exception) { rasterFallback(drawable, sizePx) }
+        val mono = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
+        for (y in 0 until sizePx) for (x in 0 until sizePx) {
+            val p = bmp.getPixel(x, y)
+            val a = Color.alpha(p)
+            mono.setPixel(x, y, (a shl 24)) // black with alpha = stroke opacity
+        }
+        bmp.recycle()
+        return mono
     }
     private fun pickMono(mono: Bitmap, monoLight: Bitmap?, fg: Int): Bitmap {
         if (monoLight == null) return mono

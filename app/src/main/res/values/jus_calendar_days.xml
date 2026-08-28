@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Per-day drawables for calendar — mirrors IconProvider.loadCalendarDrawable array behavior.
+         For demo we map all 31 days to same outline; replace with day-specific numbers later. -->
+    <array name="jus_calendar_days">
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item><item>@drawable/jus_calendar_mono</item>
+        <item>@drawable/jus_calendar_mono</item>
+    </array>
+</resources>
