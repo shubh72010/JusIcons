@@ -330,9 +330,12 @@ def generate_for_packages(packages, out_dir="app/src/main/res/drawable", scale=C
             print(f"Skip {pkg}: empty path")
             continue
         # Write vector drawable glyph-only (no circle)
+        # Stage 8: glyph on black circle (force #121212 bg) — like ThemedIconDrawable
+        bg_path = "M24,2 A22,22 0 1,0 24,46 A22,22 0 1,0 24,2 Z"
         xml = f'''<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FF121212" android:pathData="{bg_path}" />
     <path android:fillColor="#FFFFFFFF" android:pathData="{path_data}" />
 </vector>
 '''
