@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Release](https://img.shields.io/github/v/release/shubh72010/JusIcons?label=release)](https://github.com/shubh72010/JusIcons/releases/tag/v0.3.0)
+[![Release](https://img.shields.io/github/v/release/shubh72010/JusIcons?label=release)](https://github.com/shubh72010/JusIcons/releases/tag/v0.3.1)
 [![CI](https://github.com/shubh72010/JusIcons/actions/workflows/ci.yml/badge.svg)](https://github.com/shubh72010/JusIcons/actions/workflows/ci.yml)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![Min SDK 24](https://img.shields.io/badge/minSdk-24-brightgreen)](#)
@@ -20,7 +20,7 @@
 <h3>Quick Install</h3>
 
 ```bash
-adb install https://github.com/shubh72010/JusIcons/releases/download/v0.3.0/app-release.apk
+adb install https://github.com/shubh72010/JusIcons/releases/download/v0.3.1/app-release.apk
 # also appliable as icon pack — open Nova/Lawnchair/ADW → Theme → JusIcons
 ```
 
