@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <!-- Fetched reference: Lawnicons app/assets/appfilter.xml (GPL-3.0) + Frost res/xml/appfilter.xml -->
-    <!-- Curated Nothing-style outline — see ThemedIconProvider + jus_grayscale_icon_map.xml -->
-    <!-- Calendar dynamic: prefix for Lawnchair/others -->
+    <!-- Lawnicons app/assets/appfilter.xml + Frost res/xml/appfilter.xml — ComponentInfo must match pm query -->
     <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="jus_calendar_" />
     <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="jus_calendar_" />
     <calendar component="ComponentInfo{com.google.android.calendar/com.google.android.archive.ReactivateActivity}" prefix="jus_calendar_" />
-    <!-- Static fallback -->
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="jus_calendar_mono" />
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="jus_calendar_mono" />
     <item component="ComponentInfo{com.google.android.calendar/com.google.android.archive.ReactivateActivity}" drawable="jus_calendar_mono" />
-    <!-- Files -->
-    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="jus_files_mono" />
     <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.files.FilesActivity}" drawable="jus_files_mono" />
-    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="jus_files_mono" />
-    <!-- Demo curated for generic controls (Image 1) — maps to same mono engine fallback but shows pack can be expanded -->
+    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="jus_files_mono" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.files.FilesActivity}" drawable="jus_files_mono" />
     <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{ai.perplexity.app.android/ai.perplexity.app.MainActivity}" drawable="jus_generic_star" />
+    <!-- Generic fallback — if launcher queries by package only, ThemedIconProvider handles it -->
+
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="jus_generic_star" />
 </resources>

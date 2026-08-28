@@ -50,17 +50,18 @@ fun JusIconsTestScreen() {
     var tracePkg by remember { mutableStateOf<String?>(null) }
     var traceStages by remember { mutableStateOf<List<Pair<String, androidx.compose.ui.graphics.ImageBitmap>>>(emptyList()) }
     var traceLabel by remember { mutableStateOf("") }
-    var forensicScale by remember { mutableStateOf(true) }
-    var showBg by remember { mutableStateOf(false) }
+    var forensicScale by remember { mutableStateOf(false) } // visual 0.72 matches Image 2 black circle, not tiny 0.3888
+    var showBg by remember { mutableStateOf(true) } // Nothing-style = black circle bg
+    var binary by remember { mutableStateOf(false) } // continuous preserves inner lines
 
-    LaunchedEffect(Unit, forensicScale, showBg) {
+    LaunchedEffect(Unit, forensicScale, showBg, binary) {
         val pm = context.packageManager
         val mainIntent = Intent(Intent.ACTION_MAIN).apply { addCategory(Intent.CATEGORY_LAUNCHER) }
         val resolves = pm.queryIntentActivities(mainIntent, 0)
         val sorted = resolves.sortedBy { it.loadLabel(pm).toString().lowercase() }
         val renderer = JusIconsRenderer(context)
         val sizePx = (64 * context.resources.displayMetrics.density).toInt()
-        val opts = RenderOptions(forensicScale = forensicScale, showBackground = showBg)
+        val opts = RenderOptions(forensicScale = forensicScale, showBackground = showBg, binary = binary)
         val list = mutableListOf<AppIconEntry>()
         for (ri in sorted.take(40)) {
             try {
@@ -87,7 +88,7 @@ fun JusIconsTestScreen() {
     }
 
     // When tracePkg changes, re-run debug pipeline for that entry
-    LaunchedEffect(tracePkg, entries, forensicScale, showBg) {
+    LaunchedEffect(tracePkg, entries, forensicScale, showBg, binary) {
         val pkg = tracePkg ?: return@LaunchedEffect
         val entry = entries.find { it.pkg == pkg } ?: return@LaunchedEffect
         traceLabel = "${entry.label} (${entry.pkg})"
@@ -107,7 +108,7 @@ fun JusIconsTestScreen() {
                 } catch (_: Exception) {}
             }
         }
-        val opts = RenderOptions(forensicScale = forensicScale, showBackground = showBg)
+        val opts = RenderOptions(forensicScale = forensicScale, showBackground = showBg, binary = binary)
         renderer.renderWithDebug(entry.pkg, entry.original, sizePx, opts, debug)
         // Sort by 01..08 prefix for stable order
         traceStages = stages.sortedBy { it.first }
@@ -121,14 +122,18 @@ fun JusIconsTestScreen() {
                     Column(Modifier.padding(8.dp)) {
                         Text("Forensic trace: $traceLabel", style = MaterialTheme.typography.labelLarge)
                         Text("Tap any row to trace it. Saved to cache/debug-output/ (adb pull). 07 most similar = forensic 0.3888 scale too small.", style = MaterialTheme.typography.labelSmall)
-                        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 4.dp)) {
-                            Text("Forensic 0.3888", style = MaterialTheme.typography.labelSmall)
-                            Switch(checked = forensicScale, onCheckedChange = { forensicScale = it }, modifier = Modifier.padding(horizontal = 6.dp))
-                            Text("Visual 0.72", style = MaterialTheme.typography.labelSmall)
-                            Spacer(Modifier.width(12.dp))
+                        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 4.dp).horizontalScroll(rememberScrollState())) {
+                            Text("Forensic", style = MaterialTheme.typography.labelSmall)
+                            Switch(checked = forensicScale, onCheckedChange = { forensicScale = it }, modifier = Modifier.padding(horizontal = 4.dp))
+                            Text("Visual", style = MaterialTheme.typography.labelSmall)
+                            Spacer(Modifier.width(8.dp))
                             Text("BG", style = MaterialTheme.typography.labelSmall)
                             Switch(checked = showBg, onCheckedChange = { showBg = it }, modifier = Modifier.padding(start = 4.dp))
+                            Spacer(Modifier.width(8.dp))
+                            Text("B&W", style = MaterialTheme.typography.labelSmall)
+                            Switch(checked = binary, onCheckedChange = { binary = it }, modifier = Modifier.padding(start = 4.dp))
                         }
+                        Text("BG=black circle (pack applied), no-BG=glyph only. Visual=large (Image2), Forensic=tiny (0.3888). B&W=hard threshold.", style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(top = 2.dp))
                         if (traceStages.isEmpty()) {
                             LinearProgressIndicator(modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
                         } else {
@@ -167,10 +172,10 @@ fun JusIconsTestScreen() {
 @Composable
 fun IconRow(entry: AppIconEntry, selected: Boolean, onClick: () -> Unit) {
     val size = 64.dp
-    val origBm = remember(entry.pkg) {
+    val origBm = remember(entry.original) {
         try { entry.original.toBitmap(192, 192).asImageBitmap() } catch (_: Exception) { null }
     }
-    val renderedBm = remember(entry.pkg + "_r") {
+    val renderedBm = remember(entry.rendered) {
         try { entry.rendered.toBitmap(192, 192).asImageBitmap() } catch (_: Exception) { null }
     }
     Row(
