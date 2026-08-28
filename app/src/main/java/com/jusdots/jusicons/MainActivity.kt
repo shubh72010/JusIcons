@@ -26,6 +26,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.drawable.toBitmap
+import com.jusdots.jusicons.engine.IconPackGenerator
 import com.jusdots.jusicons.engine.JusIconsRenderer
 import com.jusdots.jusicons.engine.MonoProcessor
 import com.jusdots.jusicons.engine.RenderOptions
@@ -53,6 +54,8 @@ fun JusIconsTestScreen() {
     var forensicScale by remember { mutableStateOf(false) } // visual 0.72 matches Image 2 black circle, not tiny 0.3888
     var showBg by remember { mutableStateOf(true) } // Nothing-style = black circle bg
     var binary by remember { mutableStateOf(false) } // continuous preserves inner lines
+    var generating by remember { mutableStateOf(false) }
+    var generateProgress by remember { mutableStateOf("") }
 
     LaunchedEffect(Unit, forensicScale, showBg, binary) {
         val pm = context.packageManager
@@ -122,6 +125,22 @@ fun JusIconsTestScreen() {
                     Column(Modifier.padding(8.dp)) {
                         Text("Forensic trace: $traceLabel", style = MaterialTheme.typography.labelLarge)
                         Text("Tap any row to trace it. Saved to cache/debug-output/ (adb pull). 07 most similar = forensic 0.3888 scale too small.", style = MaterialTheme.typography.labelSmall)
+                        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 4.dp)) {
+                            Button(onClick = {
+                                generating = true
+                                generateProgress = "Scanning..."
+                            }, enabled = !generating, modifier = Modifier.padding(end = 8.dp)) { Text(if (generating) "Generating…" else "Generate Pack (Device)", style = MaterialTheme.typography.labelSmall) }
+                            if (generating) Text(generateProgress, style = MaterialTheme.typography.labelSmall)
+                        }
+                        if (generating) {
+                            LaunchedEffect(Unit) {
+                                val gen = IconPackGenerator(context, JusIconsRenderer(context))
+                                val outDir = File(context.cacheDir, "generated_pack").apply { mkdirs() }
+                                val list = gen.generateForInstalled(40, outDir) { cur, total -> generateProgress = "$cur/$total" }
+                                generateProgress = "Done ${list.size} → cache/generated_pack/ (adb pull)"
+                                generating = false
+                            }
+                        }
                         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 4.dp).horizontalScroll(rememberScrollState())) {
                             Text("Forensic", style = MaterialTheme.typography.labelSmall)
                             Switch(checked = forensicScale, onCheckedChange = { forensicScale = it }, modifier = Modifier.padding(horizontal = 4.dp))

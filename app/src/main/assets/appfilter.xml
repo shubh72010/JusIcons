@@ -725,7 +725,7 @@
     <item component="ComponentInfo{com.amazon.sellermobile.android/com.amazon.mShop.home.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.amazonpay.AmazonPayHomeActivityAliasWoShortcuts}" drawable="jus_generic_star" />
     <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.amazonpay.AmazonPayHomeActivityAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="jus_com_amazon_mshop_android_shopping" />
     <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.twa.CustomTWALauncherActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
@@ -1459,10 +1459,10 @@
     <item component="ComponentInfo{frb.axeron.manager/frb.axeron.manager.ui.AxActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.ayah/com.ayah.ui.SplashScreen}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.ayoba.ayoba/org.kontalk.ui.ayoba.splash.SplashActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.ExteraIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.AmethystIcon}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.ExteraIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.AmethystIcon}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AyuGramBard}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.NeoIcon}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.NeoIcon}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.SpaceIcon}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.OrbitIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AyuGramSpotify}" drawable="jus_generic_chatgpt" />
@@ -1470,12 +1470,12 @@
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AyuGramYaPlus}" drawable="jus_generic_star" />
     <item component="ComponentInfo{org.telegram.messenger.web/com.exteragram.messenger.MonetIconExtera}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AyuGramExtera}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.SusIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.MonetIconExtera}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.SusIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.MonetIconExtera}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.MonetIconExtera}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.SapphireIcon}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AyuGramDiscord}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.MonetIcon}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.MonetIcon}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{org.telegram.messenger.web/com.exteragram.messenger.AmethystIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AmethystIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AyuGramAlt}" drawable="jus_generic_star" />
@@ -1485,9 +1485,9 @@
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.NeoIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenger.web/com.exteragram.messenger.DefaultIcon}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.DefaultIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.DefaultIcon}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.DefaultIcon}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{com.radolyn.ayugram/com.exteragram.messenger.AyuGramNothing}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.AyuGramYaPlus}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.AyuGramYaPlus}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{nl.iquality.lpb.banking.de/nl.iquality.lpb.banking.nl.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.hecorat.screenrecorder.free/com.hecorat.screenrecorder.free.ui.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.hecorat.screenrecorder.free/com.hecorat.screenrecorder.free.activities.MainActivity}" drawable="jus_generic_chatgpt" />
@@ -5604,18 +5604,18 @@
     <item component="ComponentInfo{com.transsion.faceid/com.transsion.faceid.FaceManagerActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{io.faceapp/io.faceapp.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{io.faceapp/io.faceapp.MainActivityIconDefault}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.activity.media.CameraLauncherActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.worldcup_ic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.fab_ic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.vaporwave_ic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.fierce_ic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.dreamy_ic}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.loved_ic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.quiet_cool}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.katana}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.blue_fb}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.activity.media.CameraLauncherActivity}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.worldcup_ic}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.fab_ic}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.vaporwave_ic}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.fierce_ic}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.dreamy_ic}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.loved_ic}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.quiet_cool}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.katana}" drawable="jus_com_facebook_katana" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.blue_fb}" drawable="jus_com_facebook_katana" />
     <item component="ComponentInfo{com.facebook.lite/com.dzebb.handler.a}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.facebook.lite/com.facebook.lite.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.facebook.lite/com.aincrad.application.MainActivity}" drawable="jus_generic_star" />
@@ -7127,16 +7127,16 @@
     <item component="ComponentInfo{de.gls.banking.app/de.visualvest.gls.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{de.gls.banking/de.fiduciagad.banking.screens.navigation.NavigationActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.nothing.glyph.composer/com.nothing.glyph.composer.ui.MainActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmail}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivitygoogle_mail}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmailSafeMode}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmail}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivity}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivitygoogle_mail}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="jus_com_google_android_gm" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmailSafeMode}" drawable="jus_com_google_android_gm" />
     <item component="ComponentInfo{com.google.android.gm.lite/com.google.android.gm.ConversationListActivityGmail}" drawable="jus_generic_star" />
     <item component="ComponentInfo{us.spotco.maps/us.spotco.maps.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{ua.polodarb.gmsflags/ua.polodarb.gmsflags.ui.MainActivity}" drawable="jus_generic_chatgpt" />
@@ -7236,8 +7236,8 @@
     <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.apps.dynamite/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.apps.dynamite/com.google.android.apps.dynamite.startup.StartUpActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="jus_com_android_chrome" />
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="jus_com_android_chrome" />
     <item component="ComponentInfo{com.chrome.beta/com.android.chrome.Main}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.com.android.chrome.Main}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.com.google.android.apps.chrome.Main}" drawable="jus_generic_chatgpt" />
@@ -7358,10 +7358,10 @@
     <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.editors.kix.KixDocumentCreatorActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.editors.kix.KixEditorActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.HomeScreenActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.MainProxyActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.archive.ReactivateActivity}" drawable="jus_com_google_android_apps_docs" />
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.HomeScreenActivity}" drawable="jus_com_google_android_apps_docs" />
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.MainProxyActivity}" drawable="jus_com_google_android_apps_docs" />
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="jus_com_google_android_apps_docs" />
     <item component="ComponentInfo{com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.earth/com.google.android.apps.earth.EarthActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.earth/com.google.earth.EarthActivity}" drawable="jus_generic_star" />
@@ -7393,25 +7393,25 @@
     <item component="ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.inputmethod.japanese/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.apps.pixel.aurelius/.app.TeaspoonActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.AnimatingListDetailsEditActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.Br}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverWithMimeTypeActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.ListDetailsActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.NoteToSelfActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.homescreenwidget.WidgetIntentResolverActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.AnimatingListDetailsEditActivity}" drawable="jus_com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.Br}" drawable="jus_com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="jus_com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverActivity}" drawable="jus_com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverWithMimeTypeActivity}" drawable="jus_com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.ListDetailsActivity}" drawable="jus_com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.NoteToSelfActivity}" drawable="jus_com_google_android_keep" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.homescreenwidget.WidgetIntentResolverActivity}" drawable="jus_com_google_android_keep" />
     <item component="ComponentInfo{com.google.android.apps.kids.home/com.google.android.apps.kids.home.accountsetup.AccountSignInActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.android.internal.app.ResolverActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.NavigationActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.SearchActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.SettingsActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.LatitudeActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.TrafficHubActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.android.internal.app.ResolverActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.NavigationActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.SearchActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.SettingsActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.LatitudeActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}" drawable="jus_com_google_android_apps_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.TrafficHubActivity}" drawable="jus_com_google_android_apps_maps" />
     <item component="ComponentInfo{com.google.android.apps.mapslite/com.google.androidbrowserhelper.trusted.LauncherActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.apps.mapslite/com.google.maps.lite.twa.MapsLiteTwaLauncherActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.apps.mapslite/org.chromium.webapk.shell_apk.MainActivity}" drawable="jus_generic_star" />
@@ -7419,10 +7419,10 @@
     <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivitySecondLauncher}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.apps.meetings/com.google.android.apps.meetings.splash.SplashActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.messaging/com.kyant.vanilla.MainActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.kyant.vanilla.MainActivity}" drawable="jus_com_google_android_apps_messaging" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity}" drawable="jus_com_google_android_apps_messaging" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="jus_com_google_android_apps_messaging" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.archive.ReactivateActivity}" drawable="jus_com_google_android_apps_messaging" />
     <item component="ComponentInfo{com.google.android.apps.magazines/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.google.android.apps.labs.language.tailwind/com.google.android.apps.labs.language.tailwind.MainActivityDev}" drawable="jus_generic_chatgpt" />
@@ -7454,8 +7454,8 @@
     <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.RecentCallsListActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.dialer/com.google.android.libraries.social.licenses.LicenseMenuActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.archive.ReactivateActivity}" drawable="jus_com_google_android_apps_photos" />
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="jus_com_google_android_apps_photos" />
     <item component="ComponentInfo{com.gbox.com.google.android.apps.photos/com.gbox.app.LaunchAppActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{app.revanced.android.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.apps.wearables.maestro.companion/com.google.android.apps.wearables.maestro.companion.ui.MainActivity}" drawable="jus_generic_chatgpt" />
@@ -8643,16 +8643,16 @@
     <item component="ComponentInfo{me.mamiiblt.instafel.updater/me.mamiiblt.instafel.updater.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.instafel.android/com.instagram.android.activity.MainTabActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.instaflow.android/com.instagram.android.activity.MainTabActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity13}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.InternalLauncher}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity1}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity2}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.instagram.android/.activity.MainTabActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.iconone}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.LauncherActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.instagram.android/com.OM7753.gold.icon1}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity15}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity13}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.InternalLauncher}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity1}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity2}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/.activity.MainTabActivity}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.iconone}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.LauncherActivity}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.OM7753.gold.icon1}" drawable="jus_com_instagram_android" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity15}" drawable="jus_com_instagram_android" />
     <item component="ComponentInfo{com.aeroinsta.android/com.instagram.android.activity.MainTabActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.instagram.lite/com.facebook.lite.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.instagram.lite/com.instagram.lite.IgLiteActivity}" drawable="jus_generic_chatgpt" />
@@ -10761,7 +10761,7 @@
     <item component="ComponentInfo{com.metrolist.music/com.metrolist.music.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.metrolist.music/com.metrolist.music.MainActivityAlias}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.metrolist.music/com.metrolist.music.MainActivityStatic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivityAlias}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivityAlias}" drawable="jus_com_spotify_music" />
     <item component="ComponentInfo{com.andymstone.metronome/com.andymstone.metronome.MetronomeBeatsActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{mh.knoedelbart.metronomerous/mh.knoedelbart.metronomerous.MetronomiconActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.metropcs.metrozone/com.ironsource.aura.news.presentation.splash_activity.SplashActivity}" drawable="jus_generic_star" />
@@ -10935,11 +10935,11 @@
     <item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.photos.PhotosLauncherActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMLauncherActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.ui.miit.MiitLauncherActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.activities.HubActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivityEdu}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainCalendarActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.ui.miit.MiitLauncherActivity}" drawable="jus_com_microsoft_office_outlook" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.activities.HubActivity}" drawable="jus_com_microsoft_office_outlook" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="jus_com_microsoft_office_outlook" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivityEdu}" drawable="jus_com_microsoft_office_outlook" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainCalendarActivity}" drawable="jus_com_microsoft_office_outlook" />
     <item component="ComponentInfo{com.microsoft.outlooklite/com.microsoft.outlooklite.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.microsoft.outlooklite/com.microsoft.outlooklite.sms.SmsMainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.microsoft.planner/com.microsoft.planner.login.ConnectActivity}" drawable="jus_generic_chatgpt" />
@@ -11240,35 +11240,35 @@
     <item component="ComponentInfo{mtnft.momo.consumer/mtnft.momo.consumer.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{ng.mtn.android.psb.momo/ng.mtn.android.momo.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{io.github.vvb2060.mahoshojo/io.github.vvb2060.mahoshojo.home.HomeActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramDefaultIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ClassicIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ColoredIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramAquaIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramClassicIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoAquaIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoMusheenIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoNeonIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoPremiumIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoPusheenIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoRainbowIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoSpaceIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoTurboIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNoxIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramPremiumIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramThemedClassicIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramThemedXEyeIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramTurboIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramVintageIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoAquaIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoMusheenIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoNeonIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoPremiumIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoPusheenIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoRainbowIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoSpaceIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoTurboIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ThemedClassicIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ThemedXEyeIcon}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramDefaultIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ClassicIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ColoredIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramAquaIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramClassicIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoAquaIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoMusheenIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoNeonIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoPremiumIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoPusheenIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoRainbowIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoSpaceIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNekoTurboIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramNoxIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramPremiumIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramThemedClassicIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramThemedXEyeIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramTurboIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MomogramVintageIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoAquaIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoMusheenIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoNeonIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoPremiumIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoPusheenIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoRainbowIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoSpaceIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NekoTurboIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ThemedClassicIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.ThemedXEyeIcon}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{de.momox/de.momox.ui.component.splash.SplashActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{de.momox/de.momox.inbound.ui.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.infomil.bill/crc641d2f0cb11ae9d69e.MainActivity}" drawable="jus_generic_chatgpt" />
@@ -12266,12 +12266,12 @@
     <item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.IconChangeDefaultAlias}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.LoadingActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.moneybookers.skrillpayments.neteller/com.moneybookers.skrillpayments.v2.ui.launcher.LauncherActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.netflix.mediaclient/com.piyush.music.activities.main.MainActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.netflix.mediaclient/com.battlenet.showguide.SplashActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.netflix.mediaclient/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.piyush.music.activities.main.MainActivity}" drawable="jus_com_netflix_mediaclient" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.battlenet.showguide.SplashActivity}" drawable="jus_com_netflix_mediaclient" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="jus_com_netflix_mediaclient" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity}" drawable="jus_com_netflix_mediaclient" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity}" drawable="jus_com_netflix_mediaclient" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.google.android.archive.ReactivateActivity}" drawable="jus_com_netflix_mediaclient" />
     <item component="ComponentInfo{com.netflix.mediaclieog/com.razpay.apk.ServerActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{xyz.netfly/com.video_cloud.SplashActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{org.drive_hunter/xyz.netfly.SplashActivity}" drawable="jus_generic_chatgpt" />
@@ -15115,25 +15115,25 @@
     <item component="ComponentInfo{in.redbus.android/in.redbus.android.root.splashScreen.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{in.redbus.android/in.redbus.android.root.splashScreen.MainActivityDefault}" drawable="jus_generic_star" />
     <item component="ComponentInfo{net.kollnig.greasemilkyway/net.kollnig.greasemilkyway.MainActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.stocks}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.neon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.alien_blue}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.astronaut}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.planet}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.pullover}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.tothemoon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.redditgifts}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.StartActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.amazedoge}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.classic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.doge}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.retro}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.wallstreet}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.pixels}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.reddit.frontpage/com.google.android.archive.ReactivateActivity}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.stocks}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.neon}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.alien_blue}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.astronaut}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.planet}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.pullover}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.tothemoon}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.redditgifts}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.StartActivity}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.amazedoge}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.classic}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.doge}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.retro}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.wallstreet}" drawable="jus_com_reddit_frontpage" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.pixels}" drawable="jus_com_reddit_frontpage" />
     <item component="ComponentInfo{com.reddit.frontpage.rvx/launcher.default}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.worldcup2026}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.worldcup2026}" drawable="jus_com_reddit_frontpage" />
     <item component="ComponentInfo{com.andrewshu.android.reddit/com.andrewshu.android.reddit.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.andrewshu.android.redditdonation/com.andrewshu.android.reddit.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.reddoorz.app/com.reddoorz.app.ui.activity.SplashActivity}" drawable="jus_generic_chatgpt" />
@@ -17009,46 +17009,46 @@
     <item component="ComponentInfo{com.bentostudio.ballsvsblocks/com.unity3d.player.UnityPlayerActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.bentostudio.ballsvsblocks/com.google.firebase.MessagingUnityPlayerActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.playnearn/com.playnearn.SplashActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus3Alias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VhsAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlackMarbleAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnappyDoodleAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AiWaveAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SharpieDoodleAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColorRibbonsAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SilkAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonGhostAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NorthlightAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VDayChromeAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlushAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ChromeDripAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DeniseAbAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DiwaliGoldFrameAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EdgyTextAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon22Alias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PixelAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlusBlackAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PurpleAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RetroCartoonAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnapBalloonAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SprayPaintAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TealAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.thanksgivingleafAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.XrayGhostAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.YellowPinkAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LauncherActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.deeplink.DeepLinkActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HomeActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snap.mushroom.MushroomMainActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/.LandingPageActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.JokerAlias}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LavaAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ClassicGhostAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlackPantherAlias}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus2Alias}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus3Alias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VhsAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlackMarbleAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnappyDoodleAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AiWaveAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SharpieDoodleAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColorRibbonsAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SilkAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonGhostAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NorthlightAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VDayChromeAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlushAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ChromeDripAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DeniseAbAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DiwaliGoldFrameAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EdgyTextAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon22Alias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PixelAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlusBlackAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PurpleAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RetroCartoonAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnapBalloonAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SprayPaintAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TealAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.thanksgivingleafAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.XrayGhostAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.YellowPinkAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LauncherActivity}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.deeplink.DeepLinkActivity}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HomeActivity}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snap.mushroom.MushroomMainActivity}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/.LandingPageActivity}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.JokerAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LavaAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ClassicGhostAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.google.android.archive.ReactivateActivity}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlackPantherAlias}" drawable="jus_com_snapchat_android" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus2Alias}" drawable="jus_com_snapchat_android" />
     <item component="ComponentInfo{com.snapdeal.main/com.snapdeal.ui.material.activity.MaterialMainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.snapdeal.main/com.snapdeal.ui.material.activity.MaterialMainActivityDefault}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.snapdeal.main/com.snapdeal.ui.material.activity.MaterialMainActivityDefaultClone}" drawable="jus_generic_star" />
@@ -17352,14 +17352,14 @@
     <item component="ComponentInfo{com.shabinder.spotiflyer/com.shabinder.spotiflyer.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.shabinder.spotiflyer/com.shabinder.spotiflyer.ui.SplashScreenActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{it.deviato.spotifuck/it.deviato.spotifuck.MainActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.spotify.music/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.spotify.music/com.pollock_roe.AppOpenAdActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.spotify.music/com.jojoy.delegate.JojoyInstallerActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.spotify.music/com.google.android.archive.ReactivateActivity}" drawable="jus_com_spotify_music" />
+    <item component="ComponentInfo{com.spotify.music/com.pollock_roe.AppOpenAdActivity}" drawable="jus_com_spotify_music" />
+    <item component="ComponentInfo{com.spotify.music/com.jojoy.delegate.JojoyInstallerActivity}" drawable="jus_com_spotify_music" />
     <item component="ComponentInfo{com.spotify.musix/com.spotify.musix.MainActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.spotify.music/com.duapps.ad.DuAd}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.spotify.music/com.spotify.login.loginflowimpl.LoginActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.spotify.music/com.spotify.music.main.MainScreenActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.spotify.music/com.duapps.ad.DuAd}" drawable="jus_com_spotify_music" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.login.loginflowimpl.LoginActivity}" drawable="jus_com_spotify_music" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="jus_com_spotify_music" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.main.MainScreenActivity}" drawable="jus_com_spotify_music" />
     <item component="ComponentInfo{com.spotify.music.revanced/com.spotify.music.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.spotify.s4a/com.spotify.s4a.SplashActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{fm.anchor.android/com.spotify.app.s4p.main.applications.s4p.MainActivity}" drawable="jus_generic_chatgpt" />
@@ -18112,8 +18112,8 @@
     <item component="ComponentInfo{com.teleClinic.teleClinic/com.teleclinic.main.ui._01_start.LoadingActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{xyz.teleclub.webapp/xyz.teleclub.webapp.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.trustonic.telecoms.standard.dpc/com.trustonic.telecoms.Trustonic}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivityRocketIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.AyuGramSpotify}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivityRocketIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/com.exteragram.messenger.AyuGramSpotify}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{org.telegram.messenger.web/com.exteragram.messenger.MonetIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.AquaIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.CloudIcon}" drawable="jus_generic_chatgpt" />
@@ -18129,30 +18129,30 @@
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.SpaceIcon}" drawable="jus_generic_star" />
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.TurboIcon}" drawable="jus_generic_star" />
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.VintageIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.CloudIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DarkIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MaterialIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MerioIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MusheenIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NeonIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.OldSchoolIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.RainbowIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.SpaceIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.TurboIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.PremiumIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NoxIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.AquaIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.VintageIcon}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.CloudIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DarkIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MaterialIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MerioIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.MusheenIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NeonIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.OldSchoolIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.RainbowIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.SpaceIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.TurboIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.PremiumIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NoxIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.AquaIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.VintageIcon}" drawable="jus_org_telegram_messenger" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.DefaultIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.PremiumIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.ui.LaunchActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{org.telegram.messenger/com.min.n.MainActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{org.telegram.messenger/com.min.n.MainActivity}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{org.telegram.messenges/org.telegram.messenger.DefaultIcon}" drawable="jus_generic_star" />
     <item component="ComponentInfo{org.telegram.messenges/org.telegram.messenger.TurboIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenges/org.telegram.messenger.PremiumIcon}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{org.telegram.messenger/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{org.telegram.messenger/com.google.android.archive.ReactivateActivity}" drawable="jus_org_telegram_messenger" />
     <item component="ComponentInfo{org.telegram.messenger.beta/org.telegram.messenger.NoxIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenger.beta/org.telegram.messenger.AquaIcon}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{org.telegram.messenger.beta/org.telegram.messenger.DefaultIcon}" drawable="jus_generic_star" />
@@ -20180,139 +20180,139 @@
     <item component="ComponentInfo{br.com.music.wlisten2.app/br.com.fabiano.developer.appmusic.Main}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.whatnot_mobile/com.whatnot.MainActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{in.whatsaga.whatsapplongerstatus/in.whatsaga.whatsapplongerstatus.activities.StartupActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Icon0}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Icon43}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.0}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.10}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.11}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.12}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.13}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.14}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.15}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.16}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.17}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.18}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.19}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.1}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.21}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.22}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.23}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.24}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.25}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.26}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.27}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.28}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.29}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.2}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.30}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.31}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.32}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.33}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.34}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.36}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.37}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.38}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.39}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.3}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.42}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.43}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.44}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.45}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.46}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.47}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.48}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.49}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.4}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.50}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.51}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.52}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.53}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.54}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.55}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.57}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.58}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.59}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.5}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.60}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.61}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.62}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.63}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.64}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.65}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.66}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.67}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.68}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.69}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.6}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.70}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.71}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.72}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.73}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.74}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.75}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.76}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.77}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.7}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.8}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.9}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.HomeActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconfive}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconfour}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconone}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconthree}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.icontwo}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-01}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-02}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-03}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-04}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-05}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-06}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-07}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-08}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-09}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main0}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-10}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main10}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-11}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main11}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-12}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main12}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-13}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main13}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-14}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main14}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-15}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main15}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-16}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main16}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-17}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main17}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-18}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main1}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main21}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main24}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main26}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main2}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main30}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main31}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main37}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main38}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main3}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main4}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main5}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main6}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main7}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main8}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main9}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-Plus}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-Reborn}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.mod.Mulbhut-05}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Icon0}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Icon43}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.0}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.10}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.11}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.12}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.13}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.14}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.15}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.16}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.17}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.18}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.19}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.1}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.21}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.22}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.23}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.24}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.25}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.26}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.27}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.28}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.29}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.2}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.30}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.31}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.32}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.33}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.34}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.36}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.37}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.38}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.39}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.3}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.42}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.43}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.44}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.45}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.46}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.47}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.48}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.49}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.4}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.50}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.51}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.52}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.53}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.54}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.55}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.57}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.58}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.59}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.5}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.60}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.61}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.62}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.63}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.64}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.65}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.66}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.67}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.68}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.69}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.6}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.70}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.71}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.72}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.73}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.74}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.75}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.76}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.77}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.7}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.8}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.9}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.HomeActivity}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconfive}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconfour}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconone}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconthree}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.icontwo}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-01}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-02}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-03}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-04}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-05}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-06}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-07}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-08}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-09}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main0}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-10}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main10}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-11}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main11}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-12}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main12}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-13}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main13}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-14}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main14}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-15}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main15}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-16}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main16}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-17}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main17}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-18}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main1}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main21}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main24}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main26}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main2}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main30}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main31}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main37}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main38}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main3}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main4}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main5}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main6}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main7}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main8}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main9}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-Plus}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-Reborn}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.mod.Mulbhut-05}" drawable="jus_com_whatsapp" />
     <item component="ComponentInfo{com.sathwbg.easymessager/com.sathwbg.easymessager.Icon0}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.somessenger.site/com.whatsapp.Main}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon10}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon04}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon03}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon10}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon04}" drawable="jus_com_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon03}" drawable="jus_com_whatsapp" />
     <item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{io.kuenzler.whatsappwebtogo/io.kuenzler.whatsappwebtogo.MainActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{io.kuenzler.whatsappwebtogo/io.kuenzler.whatsappwebtogo.WebviewActivity}" drawable="jus_generic_chatgpt" />
@@ -20561,28 +20561,28 @@
     <item component="ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.bsbportal.music/com.bsbportal.music.v2.features.main.ui.HomeActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{com.hualai/com.hualai.home.StartActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon10}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon11}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon12}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon13}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon14}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon2}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon3}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon4}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon6}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon7}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon8}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.example.nm.TwitterLauncherMainActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.android.LoginActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.android.MainActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.android.stub.MainActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.applib.StartActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon5}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.seasonal_icon20}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.twitter.android/com.yrwl.admanager.bytedance.SplashActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon10}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon11}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon12}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon13}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon14}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon2}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon3}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon4}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon6}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon7}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon8}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.example.nm.TwitterLauncherMainActivity}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.LoginActivity}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.MainActivity}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.stub.MainActivity}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.applib.StartActivity}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon5}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.seasonal_icon20}" drawable="jus_com_twitter_android" />
+    <item component="ComponentInfo{com.twitter.android/com.yrwl.admanager.bytedance.SplashActivity}" drawable="jus_com_twitter_android" />
     <item component="ComponentInfo{com.twitter.androie/com.twitter.androie.StartActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.twitter.android/com.x.android.main.MainActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.twitter.android/com.x.android.main.MainActivity}" drawable="jus_com_twitter_android" />
     <item component="ComponentInfo{com.twitter.aeromod/com.twitter.aeromod.StartActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{video.downloader.tiktok.instagram.file.saver.vault/com.videodownloader.main.ui.activity.LandingActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{io.hexman.xiconchanger/io.hexman.xiconchanger.activity.SplashActivity}" drawable="jus_generic_star" />
@@ -20813,14 +20813,14 @@
     <item component="ComponentInfo{com.yousician.yousician/com.yousician.yousiciannative.YousicianActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.yousician.yousician/com.yousician.YousicianPlayerActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.app.youthbank/com.app.youthbank.MainActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.youtube/.app.honeycomb.Shell$HomeActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.tablet.HomeActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="jus_generic_chatgpt" />
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomePage}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.youtube/net.ogmods.youtube.OGDownloadManager1}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="jus_com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/.app.honeycomb.Shell$HomeActivity}" drawable="jus_com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity}" drawable="jus_com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="jus_com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.tablet.HomeActivity}" drawable="jus_com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="jus_com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomePage}" drawable="jus_com_google_android_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/net.ogmods.youtube.OGDownloadManager1}" drawable="jus_com_google_android_youtube" />
     <item component="ComponentInfo{com.gbox.com.google.android.youtube/com.gbox.app.LaunchAppActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{anddea.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="jus_generic_star" />
@@ -20847,10 +20847,10 @@
     <item component="ComponentInfo{yt.morphe.noname.exe/yt.morphe.noname.exe.morphe_black_2}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_3}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.morphe.youtube.music/com.morphe.youtube.music.morphe_original_1}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.archive.ReactivateActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.archive.ReactivateActivity}" drawable="jus_com_google_android_apps_youtube_musi" />
     <item component="ComponentInfo{com.google.android.music/com.google.android.music.tombstone.LauncherActivity}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="jus_generic_star" />
-    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="jus_generic_star" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="jus_com_google_android_apps_youtube_musi" />
     <item component="ComponentInfo{anddea.yrf.tube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="jus_generic_star" />
     <item component="ComponentInfo{app.revanced.android.apps.youtube.music/app.revanced.android.apps.youtube.music.revanced_original_1}" drawable="jus_generic_chatgpt" />
     <item component="ComponentInfo{app.morphe.android.apps.youtube.music/app.morphe.android.apps.youtube.music.morphe_black_4}" drawable="jus_generic_chatgpt" />

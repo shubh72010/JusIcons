@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <version>1</version>
-    <!-- FOSS pack contract: Frost res/xml/drawable.xml -->
     <item drawable="jus_calendar_mono" />
     <item drawable="jus_files_mono" />
     <item drawable="jus_generic_chatgpt" />
@@ -9,4 +8,24 @@
     <item drawable="jus_calendar_1" />
     <item drawable="jus_calendar_2" />
     <item drawable="jus_calendar_3" />
+    <item drawable="jus_com_google_android_gm" />
+    <item drawable="jus_com_google_android_youtube" />
+    <item drawable="jus_com_android_chrome" />
+    <item drawable="jus_com_whatsapp" />
+    <item drawable="jus_com_instagram_android" />
+    <item drawable="jus_com_spotify_music" />
+    <item drawable="jus_com_google_android_apps_photos" />
+    <item drawable="jus_com_google_android_apps_maps" />
+    <item drawable="jus_com_facebook_katana" />
+    <item drawable="jus_com_twitter_android" />
+    <item drawable="jus_com_reddit_frontpage" />
+    <item drawable="jus_com_netflix_mediaclient" />
+    <item drawable="jus_com_google_android_apps_youtube_musi" />
+    <item drawable="jus_com_amazon_mshop_android_shopping" />
+    <item drawable="jus_com_microsoft_office_outlook" />
+    <item drawable="jus_org_telegram_messenger" />
+    <item drawable="jus_com_snapchat_android" />
+    <item drawable="jus_com_google_android_apps_docs" />
+    <item drawable="jus_com_google_android_keep" />
+    <item drawable="jus_com_google_android_apps_messaging" />
 </resources>

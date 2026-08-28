@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Release](https://img.shields.io/github/v/release/shubh72010/JusIcons?label=release)](https://github.com/shubh72010/JusIcons/releases/tag/v0.2.1)
+[![Release](https://img.shields.io/github/v/release/shubh72010/JusIcons?label=release)](https://github.com/shubh72010/JusIcons/releases/tag/v0.3.0)
 [![CI](https://github.com/shubh72010/JusIcons/actions/workflows/ci.yml/badge.svg)](https://github.com/shubh72010/JusIcons/actions/workflows/ci.yml)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![Min SDK 24](https://img.shields.io/badge/minSdk-24-brightgreen)](#)
@@ -20,7 +20,7 @@
 <h3>Quick Install</h3>
 
 ```bash
-adb install https://github.com/shubh72010/JusIcons/releases/download/v0.2.1/app-release.apk
+adb install https://github.com/shubh72010/JusIcons/releases/download/v0.3.0/app-release.apk
 # also appliable as icon pack — open Nova/Lawnchair/ADW → Theme → JusIcons
 ```
 
@@ -45,7 +45,8 @@ git clone git@github.com:shubh72010/JusIcons.git && cd JusIcons
 | Feature | What it does |
 |---------|--------------|
 | **Hybrid pipeline** | `1. ThemeData(jus_grayscale_icon_map.xml)` → outline `jus_calendar_mono`/`jus_files_mono` `2. AdaptiveIconDrawable.monochrome` `3. d7.f` `0.3R+0.59G+0.11B` → `>110` hist 32 → `510-(a+b)` → `210/(61504−minGray²)` → `>40` → centered-square `0.3888`/`0.72` |
-| **Appliable pack** | `app/assets/appfilter.xml` + `res/xml/appfilter.xml` + `res/xml/drawable.xml` + `31× jus_calendar_1..31` (prefix `jus_calendar_`) — appears in Nova/Lawnchair/ADW/GO/Apex/Smart/Sony etc. picker |
+| **Appliable pack** | `app/assets/appfilter.xml` (`22k`, `2.9MB`) + `res/xml/appfilter.xml` + `res/xml/drawable.xml` + `31× jus_calendar_1..31` — appears in Nova/Lawnchair/ADW/GO/Apex/Smart/Sony etc. picker |
+| **Per-package build** | `ComponentInfo → PackageManager icon → MonoProcessor (210/(61504−minGray²) untouched) → centered square → ALPHA_8 → vectorize glyph-only` → `res/drawable/jus_<pkg>.xml` (`scripts/generate_jus_icons.py` + on-device `IconPackGenerator.kt`) |
 | **Adaptive-correct** | `IconNormalizer` foreground-only on transparent — YouTube red bg not a white square |
 | **Live toggles** | Demo app `JusIconsTestScreen` — `BG` (black `#121212` circle vs glyph-only), `Visual 0.72`/`Forensic 0.3888`, `B&W` hard threshold — instantly re-renders 40 apps + 8-stage trace |
 | **Zero deps** | `Canvas`/`Bitmap`/`SRC_IN` only, `minSdk 24` |
@@ -123,14 +124,17 @@ PackageManager → ThemedIconProvider(jus_grayscale_icon_map.xml)
         ↓ miss?
 AdaptiveIconDrawable.monochrome? → drawableToMono()
         ↓ miss?
-IconNormalizer(192, fg-only) → MonoProcessor(d7.f):
+IconNormalizer(192, fg-only) → MonoProcessor(d7.f) — UNTOUCHED:
  50×50 dominantGray/fillRatio (k7.c) → 192 gray 0.3/0.59/0.11
  → fCombine/iPick minGray → quadratic 210/(61504−minGray²) → >40?
  → centered-square pad=min(edges) → o7.a.h 0.3888/0.72 ARGB_8888
         ↓
-ThemedIconDrawable (bg #121212 circle + fg white SRC_IN)
+ThemedIconDrawable (bg #121212 circle + fg white SRC_IN) — live preview
         ↓
-Static pack: assets/appfilter.xml → launcher picker → res/drawable/jus_* vectos
+Build-time static: ComponentInfo → PM icon → MonoProcessor → vectorize
+  (scripts/generate_jus_icons.py: synthetic source → mono → rect-per-run path)
+  → res/drawable/jus_<pkg>.xml glyph-only → assets/appfilter.xml (22k) → launcher
+On-device: IconPackGenerator.kt scans installed → same MonoProcessor → cache/generated_pack/
 ```
 
 See `reverse-engineering/` for `RE.md` etc.
