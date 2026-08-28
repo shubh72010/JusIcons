@@ -53,28 +53,13 @@ class JusIconsRenderer(private val context: Context) : IconRenderer {
                 return drawable
             }
         }
-        // 2) App-provided AdaptiveIconDrawable.monochrome (Android 13+ ThemedIcon)
-        if (source is android.graphics.drawable.AdaptiveIconDrawable) {
-            source.monochrome?.let { monoLayer ->
-                debug?.let {
-                    try { it.onStage("01_original", IconNormalizer.toBitmap(source, sizePx)) } catch (_: Exception) {}
-                    try { it.onStage("02_curated", IconNormalizer.toBitmap(monoLayer, sizePx)) } catch (_: Exception) {}
-                }
-                val mono = drawableToMono(monoLayer, sizePx)
-                val bg = if (options.showBackground) createCircularBg(sizePx) else null
-                val drawable = ThemedIconDrawable(mono, bg, options.bgColor, options.fgColor)
-                debug?.let {
-                    try { it.onStage("07_cropped", mono.copy(Bitmap.Config.ARGB_8888, false)) } catch (_: Exception) {}
-                    val out = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
-                    val c = Canvas(out); drawable.setBounds(0, 0, sizePx, sizePx); drawable.draw(c)
-                    it.onStage("08_final", out)
-                    val ph = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
-                    it.onStage("03_grayscale", ph); it.onStage("04_analysis", ph)
-                    it.onStage("05_remapped", ph); it.onStage("06_alpha", ph)
-                }
-                return drawable
-            }
-        }
+        // 2) AdaptiveIconDrawable.monochrome — DISABLED for forensic fidelity.
+        // Nothing's IconProvider.java:180 only injects ThemeData when getMonochrome()==null;
+        // it does NOT force monochrome-through-JusIcons for every AdaptiveIcon. We added this
+        // as Android-correct but it's more aggressive than Nothing, wrecking JusIcons own icon
+        // and others where monochrome != Nothing glyph. Keep curated→generic only:
+        // ponytail: disabled monochrome branch, re-enable behind flag if proven via decompiled path.
+        // if (source is AdaptiveIconDrawable) { source.monochrome?.let { ... } }
         val normalized: Bitmap = try { IconNormalizer.toBitmap(source, sizePx) } catch (_: Exception) { rasterFallback(source, sizePx) }
         val scale = if (options.forensicScale) MonoProcessor.CROP_SCALE_FORENSIC else MonoProcessor.CROP_SCALE_VISUAL
         val result = MonoProcessor.process(normalized, sizePx, options.enableMonoCheck, debug, scale, options.binary)
