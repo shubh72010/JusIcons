@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Fetched reference: Lawnicons app/assets/appfilter.xml (GPL-3.0) + Frost res/xml/appfilter.xml -->
+    <!-- Curated Nothing-style outline — see ThemedIconProvider + jus_grayscale_icon_map.xml -->
+    <!-- Calendar dynamic: prefix for Lawnchair/others -->
+    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="jus_calendar_" />
+    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="jus_calendar_" />
+    <calendar component="ComponentInfo{com.google.android.calendar/com.google.android.archive.ReactivateActivity}" prefix="jus_calendar_" />
+    <!-- Static fallback -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="jus_calendar_mono" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="jus_calendar_mono" />
+    <item component="ComponentInfo{com.google.android.calendar/com.google.android.archive.ReactivateActivity}" drawable="jus_calendar_mono" />
+    <!-- Files -->
+    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="jus_files_mono" />
+    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.files.FilesActivity}" drawable="jus_files_mono" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="jus_files_mono" />
+    <!-- Demo curated for generic controls (Image 1) — maps to same mono engine fallback but shows pack can be expanded -->
+    <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="jus_generic_chatgpt" />
+    <item component="ComponentInfo{ai.perplexity.app.android/ai.perplexity.app.MainActivity}" drawable="jus_generic_star" />
+</resources>

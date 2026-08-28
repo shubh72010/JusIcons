@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Frost minimal — tells launcher how to mask unthemed icons -->
+    <string-array name="icon_pack" translatable="false">
+        <item>jus_calendar_mono</item>
+        <item>jus_files_mono</item>
+    </string-array>
+</resources>

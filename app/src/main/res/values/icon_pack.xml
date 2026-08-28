@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icon_pack" translatable="false">
+        <item>jus_calendar_mono</item>
+        <item>jus_files_mono</item>
+    </string-array>
+</resources>

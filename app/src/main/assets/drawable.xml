@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version>1</version>
+    <!-- FOSS pack contract: Frost res/xml/drawable.xml -->
+    <item drawable="jus_calendar_mono" />
+    <item drawable="jus_files_mono" />
+    <item drawable="jus_generic_chatgpt" />
+    <item drawable="jus_generic_star" />
+    <item drawable="jus_calendar_1" />
+    <item drawable="jus_calendar_2" />
+    <item drawable="jus_calendar_3" />
+</resources>
