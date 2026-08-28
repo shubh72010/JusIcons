@@ -23,6 +23,10 @@
     <calendar component="ComponentInfo{com.nhn.android.calendar/com.nhn.android.calendar.feature.main.base.ui.MainActivity}" prefix="jus_calendar_" name="네이버 캘린더 ~~ Naver Calendar" />
     <calendar component="ComponentInfo{com.oplus.calendar/com.android.calendar.AllInOneActivity}" prefix="jus_calendar_" name="ColorOS Calendar" />
     <calendar component="ComponentInfo{com.superb.launcher/com.calendar.schedule.taskapp.activities.SplashActivity}" prefix="jus_calendar_" name="Superb Launcher Calendar" />
+    <iconback img="jus_iconback" />
+    <iconmask img="jus_iconmask" />
+    <iconupon img="jus_iconupon" />
+    <scale factor="0.85" />
     <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.files.FilesActivity}" drawable="jus_files_mono" />
     <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="jus_files_mono" />
     <item component="ComponentInfo{com.superb.launcher/com.calendar.schedule.taskapp.activities.SplashActivity}" drawable="jus_calendar_mono" />

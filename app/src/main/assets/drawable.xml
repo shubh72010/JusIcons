@@ -28,4 +28,7 @@
     <item drawable="jus_com_google_android_apps_docs" />
     <item drawable="jus_com_google_android_keep" />
     <item drawable="jus_com_google_android_apps_messaging" />
+    <item drawable="jus_iconback" />
+    <item drawable="jus_iconmask" />
+    <item drawable="jus_iconupon" />
 </resources>

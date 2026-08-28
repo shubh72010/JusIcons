@@ -175,41 +175,96 @@ def mono_process(source_img, icon_size=192, scale=CROP_SCALE_VISUAL, binary=True
     return out
 
 def synthetic_source_for_package(pkg, size=192):
-    # Create a synthetic source icon unique per package: hash-based color + letter
+    # Try real icon from dashboard-icons CDN first (per-package correct), fallback to synthetic
+    import hashlib, urllib.request, io
+    # Map pkg to dashboard icon name
+    dashboard_map = {
+        "com.whatsapp": "whatsapp",
+        "com.google.android.gm": "gmail",
+        "com.google.android.youtube": "youtube",
+        "com.android.chrome": "chrome",
+        "com.instagram.android": "instagram",
+        "com.spotify.music": "spotify",
+        "com.google.android.apps.photos": "google-photos",
+        "com.google.android.apps.maps": "google-maps",
+        "com.facebook.katana": "facebook",
+        "com.twitter.android": "twitter",
+        "com.reddit.frontpage": "reddit",
+        "com.netflix.mediaclient": "netflix",
+        "com.google.android.apps.youtube.music": "youtube-music",
+        "com.amazon.mShop.android.shopping": "amazon",
+        "com.microsoft.office.outlook": "microsoft-outlook",
+        "org.telegram.messenger": "telegram",
+        "com.snapchat.android": "snapchat",
+        "com.google.android.apps.docs": "google-docs",
+        "com.google.android.keep": "google-keep",
+        "com.google.android.apps.messaging": "google-messages",
+    }
+    dash_name = dashboard_map.get(pkg)
+    if dash_name:
+        try:
+            url = f"https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/{dash_name}.png"
+            data = urllib.request.urlopen(url, timeout=10).read()
+            img = Image.open(io.BytesIO(data)).convert("RGBA")
+            img = img.resize((size, size), Image.BILINEAR)
+            return img
+        except Exception as e:
+            pass
+    # Fallback synthetic
+    import hashlib
     h = hashlib.md5(pkg.encode()).hexdigest()
-    # Use first 6 hex for color
+    img = Image.new("RGBA", (size,size), (0,0,0,0))
+    draw = ImageDraw.Draw(img)
+    cx, cy = size//2, size//2
+    pkg_shapes = {
+        "com.whatsapp": "speech",
+        "com.google.android.gm": "envelope",
+        "com.google.android.youtube": "play",
+        "com.android.chrome": "chrome",
+        "com.instagram.android": "camera",
+        "com.spotify.music": "music",
+        "com.facebook.katana": "f",
+        "org.telegram.messenger": "paperplane",
+        "com.twitter.android": "bird",
+        "com.reddit.frontpage": "alien",
+    }
+    shape_key = pkg_shapes.get(pkg, "generic")
     r = int(h[0:2],16)
     g = int(h[2:4],16)
     b = int(h[4:6],16)
-    # Ensure not too dark/light
-    img = Image.new("RGBA", (size,size), (0,0,0,0))
-    draw = ImageDraw.Draw(img)
-    # Draw a rounded rect background with package color
-    # Adaptive foreground simulation: draw a shape
-    # Use circle or rect based on hash
-    shape = int(h[6],16) % 3
-    cx, cy = size//2, size//2
-    rad = size*0.3
-    if shape==0:
-        draw.ellipse([cx-rad, cy-rad, cx+rad, cy+rad], fill=(r,g,b,255))
-    elif shape==1:
-        draw.rectangle([cx-rad, cy-rad, cx+rad, cy+rad], fill=(r,g,b,255))
+    col = (r,g,b,255)
+    # All shapes are glyph-only small, ~40px, centered — outline style so mono preserves stroke
+    s = size*0.22
+    if shape_key == "speech":
+        # WhatsApp-like speech bubble outline
+        draw.ellipse([cx-s, cy-s, cx+s, cy+s*0.8], outline=col, width=4)
+        draw.ellipse([cx-s*0.2, cy-s*0.1, cx+s*0.2, cy+s*0.4], outline=(255,255,255,255), width=2)
+    elif shape_key == "envelope":
+        draw.rectangle([cx-s, cy-s*0.6, cx+s, cy+s*0.6], outline=col, width=4)
+        draw.line([cx-s, cy-s*0.6, cx, cy], fill=col, width=3)
+        draw.line([cx+s, cy-s*0.6, cx, cy], fill=col, width=3)
+    elif shape_key == "play":
+        draw.polygon([(cx-s*0.6, cy-s*0.6), (cx-s*0.6, cy+s*0.6), (cx+s*0.7, cy)], fill=col)
+    elif shape_key == "camera":
+        draw.rectangle([cx-s*0.8, cy-s*0.5, cx+s*0.8, cy+s*0.6], outline=col, width=4)
+        draw.ellipse([cx-s*0.3, cy-s*0.2, cx+s*0.3, cy+s*0.3], outline=(255,255,255,255), width=2)
+    elif shape_key == "music":
+        draw.ellipse([cx-s*0.5, cy, cx-s*0.1, cy+s*0.4], outline=col, width=3)
+        draw.ellipse([cx+s*0.1, cy-s*0.2, cx+s*0.5, cy+s*0.2], outline=col, width=3)
+        draw.line([cx-s*0.1, cy, cx+s*0.2, cy], fill=col, width=3)
     else:
-        # triangle
-        draw.polygon([(cx, cy-rad), (cx-rad, cy+rad), (cx+rad, cy+rad)], fill=(r,g,b,255))
-    # Draw letter (first char of package)
-    letter = pkg.split(".")[-1][0].upper() if pkg else "A"
-    try:
-        # Try to load a font
-        font = ImageFont.load_default()
-        # Use larger size if available
-        # Draw text centered
-        bbox = draw.textbbox((0,0), letter, font=font)
-        tw = bbox[2]-bbox[0]
-        th = bbox[3]-bbox[1]
-        draw.text((cx-tw//2, cy-th//2), letter, fill=(255,255,255,255), font=font)
-    except:
-        pass
+        # Generic: small centered circle + letter
+        draw.ellipse([cx-s*0.6, cy-s*0.6, cx+s*0.6, cy+s*0.6], fill=col)
+        letter = pkg.split(".")[-1][0].upper() if pkg else "A"
+        try:
+            font = ImageFont.load_default()
+            bbox = draw.textbbox((0,0), letter, font=font)
+            tw = bbox[2]-bbox[0]
+            th = bbox[3]-bbox[1]
+            # Scale letter to be visible
+            draw.text((cx-tw//2, cy-th//2), letter, fill=(255,255,255,255), font=font)
+        except:
+            pass
     return img
 
 def vectorize_mono(mono_img, viewport=48):
