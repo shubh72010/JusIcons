@@ -190,12 +190,24 @@ fun JusIconsTestScreen() {
 
 @Composable
 fun IconRow(entry: AppIconEntry, selected: Boolean, onClick: () -> Unit) {
+    val context = androidx.compose.ui.platform.LocalContext.current
     val size = 64.dp
     val origBm = remember(entry.original) {
         try { entry.original.toBitmap(192, 192).asImageBitmap() } catch (_: Exception) { null }
     }
     val renderedBm = remember(entry.rendered) {
         try { entry.rendered.toBitmap(192, 192).asImageBitmap() } catch (_: Exception) { null }
+    }
+    val component = remember(entry.pkg) {
+        try {
+            val pm = context.packageManager
+            val intent = android.content.Intent(android.content.Intent.ACTION_MAIN).apply { addCategory(android.content.Intent.CATEGORY_LAUNCHER); setPackage(entry.pkg) }
+            val ri = pm.queryIntentActivities(intent, 0).firstOrNull()
+            ri?.let { "ComponentInfo{" + it.activityInfo.packageName + "/" + it.activityInfo.name + "}" } ?: entry.pkg
+        } catch (_: Exception) { entry.pkg }
+    }
+    val isMapped = remember(entry.pkg) {
+        try { com.jusdots.jusicons.engine.ThemedIconProvider(context).getThemeDataForPackage(entry.pkg) != null } catch(_:Exception){false}
     }
     Row(
         modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp).clickable { onClick() }.background(if (selected) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.surface),
@@ -210,8 +222,8 @@ fun IconRow(entry: AppIconEntry, selected: Boolean, onClick: () -> Unit) {
         Column(modifier = Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally) {
             if (renderedBm != null) Image(bitmap = renderedBm, contentDescription = null, modifier = Modifier.size(size).background(MaterialTheme.colorScheme.surfaceVariant))
             else Box(Modifier.size(size).background(MaterialTheme.colorScheme.errorContainer))
-            Text("Nothing-style", style = MaterialTheme.typography.labelSmall)
-            Text("tap to trace", style = MaterialTheme.typography.labelSmall)
+            Text(if(isMapped) "Curated" else "Generic d7/f", style = MaterialTheme.typography.labelSmall, color = if(isMapped) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(component, maxLines = 1, overflow = TextOverflow.Ellipsis, style = MaterialTheme.typography.labelSmall)
         }
     }
     HorizontalDivider(Modifier.padding(vertical = 2.dp))
